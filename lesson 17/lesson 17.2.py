@@ -50,3 +50,16 @@ class Library:
         return f"{self.name} Library"
 
 
+library = Library('my Library')
+author1 = Author("Taras Shevchenko","Ukraine",1814)
+author2 = Author("Lesya Ukrainka","Ukraine",1871)
+library.new_book ("Kobzar",1840,"Taras Shevchenko")
+library.new_book("Contra spem spero!",1893,"Lesya Ukrainka")
+library.new_book("Kavkaz",1893,"Taras Shevchenko")
+library.new_book("Na krulah pisen", 1893,"Lesya Ukrainka")
+book_author = library.group_by_author("Taras Shevchenko")
+book_year = library.group_by_year(1893)
+print(book_author)
+print(book_year)
+print(Book.total_book)
+print(library)
