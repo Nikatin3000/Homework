@@ -9,7 +9,6 @@ class ProductStore:
     def __init__(self):
         self.product_list = []
         self.income = 0
-        self.info = ()
 
     def add(self, product, amount):
         for item in self.product_list:
@@ -46,9 +45,9 @@ class ProductStore:
     def get_product_info(self, product_name):
         for i in self.product_list:
             if product_name in i:
-                self.info = (product_name, i[product_name][0])
-                print(self.info)
-                return self.info
+                info = (product_name, i[product_name][0])
+                print(info)
+                return info
 
 p = Product('Sport', 'Football T-Shirt', 100)
 # p2 = Product('Food', 'Ramen', 1.5)
