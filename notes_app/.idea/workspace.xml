@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d08f0d-0479-4052-b9d8-a4b4eb49c481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson 29/lesson 29.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson 29/lesson 29.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson 36/lesson 36.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson 36/lesson 36.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Homework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson 13/lesson 13.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson 13/lesson 13.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../other.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Python/Homework/notes_app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687077048495</updated>
       <workItem from="1687077072223" duration="555000" />
+      <workItem from="1687247357203" duration="4460000" />
     </task>
     <servers />
   </component>

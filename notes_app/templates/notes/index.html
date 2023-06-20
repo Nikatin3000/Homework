@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1> Hello from Notes app. </h1>
+<p> 1) Note1 </p>
+<p> 2) Note2 </p>
+<p> 3) Note3 </p>
+<p> 4) Note4 </p>
+<p> 6) Note5 </p>
+{% if notes_list %}
+    <ol>
+    {% for note in notes_list %}
+        <li>{{ note }}</li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>No notes are available.</p>
+{% endif %}
+
+</body>
+</html>
