@@ -8,10 +8,10 @@ class Categories(models.Model):
 
 
 class Notes(models.Model):
-    categories = models.ForeignKey(Categories, on_delete=models.CASCADE)
+    categories = models.ForeignKey(Categories, on_delete=models.CASCADE, related_name='notes')
     title = models.CharField(max_length=200)
     text = models.TextField()
-    reminder = models.DateTimeField('reminder')
+    reminder = models.DateTimeField('reminder date')
 
     def __str__(self):
         return f"{self.categories}, {self.title}, {self.text}, {self.reminder}"
